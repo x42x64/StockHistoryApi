@@ -53,7 +53,7 @@ def get_stock_api_handler(base_uri):
 if __name__ == "__main__":        
 
     parser = argparse.ArgumentParser(description='Providing an API to get historic stock data for given ISIN')
-    parser.add_argument('--host_name', type=str, default='localhost', help='host where to serve')
+    parser.add_argument('--host_name', type=str, default='0.0.0.0', help='host where to serve')
     parser.add_argument('--port', type=int, default=8080, help='port where to serve')
     parser.add_argument('--base_uri', type=str, default='/', help='base uri')
 

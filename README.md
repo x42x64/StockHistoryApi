@@ -20,7 +20,7 @@ docker build -t <image_name> .
 
 Run the image:
 ```
-docker run -d <image_name>
+docker run -p 8080:8080 -d <image_name>
 ```
 
 Custom port, interface and/or sub uri:
