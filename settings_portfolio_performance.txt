@@ -1,0 +1,3 @@
+http://localhost:8080/DE0008474123/tradegate
+$.data[*].datetimeLast.UTCTimeStamp
+$.data[*].last
